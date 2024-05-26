@@ -1,0 +1,2882 @@
+.all {
+     position: relative;
+     width: 1440px;
+     height: 6671px;
+     overflow-x: hidden;
+}
+
+.hero {
+     position: absolute;
+     width: 1440px;
+     height: 831px;
+     left: 0px;
+     top: 0px;
+     background: #171717 url('./images/Vector.png') no-repeat top left;
+     background-size: auto;
+}
+
+.nav {
+     width: Fixed (1, 440px)px;
+     height: Hug (114px)px;
+     padding: 20px 98px 20px 98px;
+     display: flex;
+     flex-direction: row;
+     place-content: space-between;
+     place-items: center;
+     padding: 20px 98px;
+     gap: 8px;
+     position: absolute;
+     height: 114px;
+     left: 0%;
+     right: 0%;
+     top: 0px;
+}
+
+.nav p {
+     margin: 0 auto;
+     width: 131px;
+     height: 48px;
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 48px;
+     color: #FFFFFF;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+}
+
+.nav p span {
+     color: #00A7D6;
+}
+
+.frame {
+     display: flex;
+     flex-direction: row;
+     place-content: space-between;
+     place-items: center;
+     padding: 15px;
+     gap: 8px;
+     margin: 0 auto;
+     width: 507px;
+     height: 74px;
+     background: rgba(206, 249, 254, 0.13);
+     backdrop-filter: blur(25px);
+     border-radius: 100px;
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+}
+
+.frame button {
+     align-items: center;
+     padding: 15px;
+     background: linear-gradient(298.54deg, #0A767B -7.7%, #00A7D6 97.12%);
+     backdrop-filter: blur(25px);
+     border-radius: 100px;
+}
+
+.frame a {
+     padding: 15px;
+     gap: 8px;
+     margin: 0 auto;
+     flex: none;
+     color: #FFFFFF;
+}
+
+.empower {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 40px;
+     position: absolute;
+     width: 675px;
+     height: 312px;
+     left: 98px;
+     top: 223px;
+}
+
+.empower h1 {
+     font-family: 'Titillium Web';
+     font-size: 90px;
+     font-weight: 700;
+     line-height: 90px;
+     letter-spacing: -0.01em;
+     text-align: left;
+     color: #FFFFFF
+}
+
+.empower p {
+     font-family: 'Poppins';
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 23px;
+     text-align: left;
+     color: #FFFFFF;
+}
+
+.hero .image {
+     position: absolute;
+     width: 530px;
+     height: 530px;
+     left: 853px;
+     top: 182px;
+}
+
+.button {
+     display: flex;
+     flex-direction: row;
+     place-content: center;
+     place-items: center;
+     padding: 24px;
+     gap: 8px;
+     position: absolute;
+     width: 324px;
+     height: 72px;
+     left: 98px;
+     top: 599px;
+     background: linear-gradient(298.54deg, #0A767B -7.7%, #00A7D6 97.12%);
+     border-radius: 8px;
+}
+
+.button p {
+     font-family: 'Titillium Web';
+     width: 276px;
+     height: 24px;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 24px;
+     text-align: center;
+     color: rgba(255, 255, 255, 1);
+
+}
+
+/* *********************************Section 1********************************* */
+
+
+.sect1 {
+     position: absolute;
+     width: 1440px;
+     height: 762px;
+     left: 0px;
+     top: 831px;
+     background: #171717;
+}
+
+.word {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 24px;
+
+     position: absolute;
+     width: 635px;
+     height: 474px;
+     left: calc(50% - 635px / 2 + 304.5px);
+     top: 80px;
+}
+
+.together {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+     width: 635px;
+     height: 312px;
+}
+
+.about {
+     width: 635px;
+     height: 24px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     color: #3ed5dd;
+}
+
+.our {
+     width: 635px;
+     height: 280px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 67px;
+     line-height: 70px;
+     text-transform: capitalize;
+     color: #ffffff;
+}
+
+.paragraph {
+     width: 635px;
+     height: 138px;
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     color: #ffffff;
+     padding-top: 20px;
+     margin-top: 80px;
+}
+
+.vector {
+     position: absolute;
+     width: 725.47px;
+     height: 487.2px;
+     left: 1659.19px;
+     top: 1047.52px;
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.image-container {
+     position: relative;
+     width: 383px;
+     /* Set the width according to the largest image */
+     height: 440px;
+}
+
+.Image {
+     position: absolute;
+     width: 383px;
+     height: 440px;
+     top: 80px;
+     left: 98px;
+     gap: 0px;
+     border-radius: 16px 0px 0px 0px;
+     opacity: 1;
+     /* Set opacity to 1 to make it visible */
+}
+
+.image2 {
+     position: absolute;
+     width: 393px;
+     height: 440px;
+     top: 242px;
+     left: 234px;
+     gap: 0px;
+     border-radius: 16px 0px 0px 0px;
+     opacity: 1;
+     /* Set opacity to 1 to make it visible */
+}
+
+.but {
+     width: 276px;
+     height: 24px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #ffffff;
+}
+
+.button2 {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 24px;
+     gap: 8px;
+
+     /* position: absolute; */
+     width: 324px;
+     height: 72px;
+     left: 707px;
+     top: 610px;
+
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     border-radius: 8px;
+}
+
+.button2:hover {
+     color: #00a7d6;
+}
+
+
+
+/* ******************************* Our Service ************************* */
+.service {
+     position: absolute;
+     width: 1440px;
+     height: 819px;
+     left: calc(50% - 1440px/2);
+     top: 1593px;
+     background: #171717;
+}
+
+.service .text {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 24px;
+     position: absolute;
+     width: 761px;
+     height: 242px;
+     left: calc(50% - 761px/2 - 0.5px);
+     top: 80px;
+}
+
+.service .text small {
+     width: 761px;
+     height: 24px;
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     text-align: center;
+     color: #3ED5DD;
+     flex: none;
+     order: 0;
+     align-self: stretch;
+     flex-grow: 0;
+}
+
+.service .text h2 {
+     font-family: 'Titillium Web';
+     font-size: 67px;
+     font-weight: 600;
+     line-height: 70px;
+     text-align: center;
+     color: rgba(255, 255, 255, 1)
+}
+
+.service .text p {
+     width: 761px;
+     height: 46px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     text-align: center;
+     color: #FFFFFF;
+     flex: none;
+     order: 1;
+     align-self: stretch;
+     flex-grow: 0;
+}
+
+.cybersec {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 64px 56px 32px;
+     gap: 8px;
+
+     position: absolute;
+     width: 382px;
+     height: 245px;
+     left: 141px;
+     top: 434px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+     /* Accent 1 */
+     border: 2px solid #3ED5DD;
+     border-radius: 16px;
+
+}
+
+.cybersecicon {
+     box-sizing: border-box;
+     position: absolute;
+     width: 80px;
+     height: 80px;
+     left: calc(50% - 80px/2 - 388px);
+     top: 394px;
+     background: linear-gradient(298.54deg, #0A767B -7.7%, #00A7D6 97.12%);
+     border: 1px solid #3ED5DD;
+     border-radius: 40px;
+}
+
+.subcyber {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+
+     width: 270px;
+     height: 149px;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     align-self: stretch;
+     flex-grow: 0;
+
+}
+
+.cybertext1 {
+     /* Cyber security Assessment */
+
+     width: 270px;
+     height: 64px;
+
+     /* Headings/H5 600 */
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* or 114% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     align-self: stretch;
+     flex-grow: 0;
+
+}
+
+.cybertext1img {
+     background: linear-gradient(298.54deg, #0A767B -7.7%, #00A7D6 97.12%);
+
+     border: 1px solid rgba(62, 213, 221, 1);
+
+     position: absolute;
+     width: 80px;
+     box-sizing: border-box;
+     top: -40px;
+     height: 80px;
+     left: 40%;
+     border-radius: 40px;
+
+}
+
+.ct1i {
+     /* cyber security */
+
+     position: absolute;
+     width: 48px;
+     height: 48px;
+     left: calc(50% - 48px/2);
+     top: calc(50% - 48px/2);
+}
+
+
+
+.cybertext2 {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue metus quis. */
+
+     width: 270px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     align-self: stretch;
+     flex-grow: 0;
+
+}
+
+.intru {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 64px 56px 32px;
+     gap: 8px;
+
+     position: absolute;
+     width: 348px;
+     height: 222px;
+     left: 585px;
+     top: 457px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+
+}
+
+.subintru {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 248px;
+     height: 126px;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+
+}
+
+.intrutext1 {
+     /* Intrusion Detection and Prevention */
+
+     width: 248px;
+     height: 64px;
+
+     /* Headings/H5 600 */
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* or 114% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+}
+
+.intrutext2 {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+
+     width: 248px;
+     height: 46px;
+
+     /* Main Text/P1 400 */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
+}
+
+.inci {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 64px 56px 32px;
+     gap: 8px;
+     position: absolute;
+     width: 348px;
+     height: 222px;
+     left: 995px;
+     top: 457px;
+     background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+     backdrop-filter: blur(25px);
+     border-radius: 16px;
+}
+
+.subinci {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 248px;
+     height: 126px;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+}
+
+.incitext1 {
+     /* Incident Response and Recovery */
+
+     width: 248px;
+     height: 64px;
+
+     /* Headings/H5 600 */
+     font-family: 'Titillium Web';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* or 114% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+
+}
+
+.incitext2 {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. */
+
+     width: 248px;
+     height: 46px;
+
+     /* Main Text/P1 400 */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #FFFFFF;
+
+
+     /* Inside auto layout */
+     flex: none;
+     order: 1;
+     flex-grow: 0;
+
+
+}
+
+
+
+
+/* **************************************Section 2 ************************************* */
+
+.sect2 {
+     position: absolute;
+     width: 1440px;
+     height: 1040px;
+     left: 0px;
+     top: 2412px;
+     background: #171717;
+}
+
+.img {
+     position: absolute;
+     width: 521px;
+     height: 880px;
+     left: calc(50% - 521px / 2 - 361.5px);
+     top: 80px;
+
+     background: #ffffff;
+     border-radius: 16px;
+}
+
+.point {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 24px;
+     position: absolute;
+     width: 643px;
+     height: 265px;
+     left: calc(50% - 643px / 2 + 300.5px);
+     top: 80px;
+}
+
+.featuredPoint {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+     width: 643px;
+     height: 172px;
+}
+
+.fea {
+     width: 643px;
+     height: 24px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     color: #3ed5dd;
+     margin-bottom: 10px;
+}
+
+.key {
+     width: 643px;
+     height: 140px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 67px;
+     line-height: 70px;
+     text-transform: capitalize;
+     color: #ffffff;
+     margin-top: 10px;
+}
+
+.lorem {
+     width: 643px;
+     height: 69px;
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     color: #ffffff;
+     padding-top: 20px;
+     margin-top: 30px;
+}
+
+.customise {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 8px;
+
+     position: absolute;
+     width: 301.5px;
+     height: 262px;
+     left: 699px;
+     top: 385px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.imglap {
+     width: 64px;
+     height: 64px;
+     /* margin-bottom: 90px;
+     padding-bottom: 80px; */
+     /* flex: none;
+     order: 0;
+     flex-grow: 0; */
+}
+
+.text {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+     width: 237.5px;
+     height: 126px;
+}
+
+.solu {
+     width: 237.5px;
+     height: 64px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     color: #ffffff;
+}
+
+.orem {
+     width: 237.5px;
+     height: 46px;
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     color: #ffffff;
+}
+
+.vulner {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+
+     gap: 8px;
+     position: absolute;
+     width: 301.5px;
+     height: 262px;
+     left: 1040.5px;
+     top: 385px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.threat {
+     width: 64px;
+     height: 64px;
+}
+
+.asses {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     /* margin: 20px; */
+     gap: 16px;
+     width: 237.5px;
+     height: 126px;
+}
+
+.textass {
+     width: 237.5px;
+     height: 64px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     color: #ffffff;
+}
+
+.ips {
+     width: 237.5px;
+     height: 46px;
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     color: #ffffff;
+     padding-left: 10px;
+     padding-bottom: 90px;
+     margin-top: auto;
+}
+
+.hour {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 8px;
+     position: absolute;
+     width: 301.5px;
+     height: 262px;
+     left: 699px;
+     top: 690px;
+     /* Colour Card */
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+
+     margin: 20px;
+     vertical-align: auto;
+}
+
+.service2 {
+     width: 64px;
+     height: 64px;
+}
+
+.incident {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+     width: 237.5px;
+     height: 126px;
+}
+
+.res {
+     width: 237.5px;
+     height: 64px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     color: #ffffff;
+}
+
+.ipisium {
+     width: 237.5px;
+     height: 46px;
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     color: #ffffff;
+}
+
+.train {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 8px;
+
+     position: absolute;
+     width: 301.5px;
+     height: 262px;
+     left: 1040.5px;
+     top: 690px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+     margin: 20px;
+     vertical-align: auto;
+}
+
+.lecture {
+     width: 64px;
+     height: 64px;
+}
+
+.program {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 237.5px;
+     height: 126px;
+}
+
+.user {
+     width: 237.5px;
+     height: 64px;
+
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     color: #ffffff;
+}
+
+.sit {
+     width: 237.5px;
+     height: 46px;
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     color: #ffffff;
+}
+
+
+
+/* *************************************Our Goals**************************** */
+.ourgoals{
+position: absolute;
+width: 1440px;
+height: 761px;
+left: 0px;
+top: 3452px;
+background: #171717;
+
+}
+.our1{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 761px;
+height: 242px;
+left: calc(50% - 761px/2 - 0.5px);
+top: 80px;
+}
+
+.our2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 761px;
+height: 172px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.our3{
+width: 761px;
+height: 24px;
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 24px;
+text-align: center;
+color: #3ED5DD;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.our4{
+width: 761px;
+height: 140px;
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 67px;
+line-height: 70px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.our5{
+width: 761px;
+height: 46px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.our6{
+position: absolute;
+width: 2156px;
+height: 207px;
+left: 1000px;
+top: 402px;
+}
+
+.client{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px;
+gap: 8px;
+position: absolute;
+width: 388px;
+height: 181px;
+background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+backdrop-filter: blur(25px);
+border-radius: 16px;
+}
+.approach{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 324px;
+height: 117px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.rach{
+width: 324px;
+height: 32px;
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.cent{
+width: 324px;
+height: 69px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.obj{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px;
+gap: 8px;
+position: absolute;
+width: 388px;
+height: 181px;
+left: -400px;
+top: 0px;
+background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+backdrop-filter: blur(25px);
+border-radius: 16px;
+}
+
+.key1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 324px;
+height: 117px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.rach2{
+width: 324px;
+height: 32px;
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.cent2{
+width: 324px;
+height: 69px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.mis{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px;
+gap: 8px;
+position: absolute;
+width: 444px;
+height: 207px;
+left: -900px;
+top: 0px;
+background: linear-gradient(96.79deg, #171717 -62.94%, #323335 -62.92%, rgba(90, 90, 90, 0) 54.42%, #171717 174.24%);
+border: 2px solid #3ED5DD;
+backdrop-filter: blur(25px);
+border-radius: 16px;
+}
+.stat{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+width: 380px;
+height: 117px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.rach3{
+width: 380px;
+height: 32px;
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.cent3{
+width: 380px;
+height: 69px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+.ecbutton{
+     /* button */
+
+position: absolute;
+width: 144px;
+height: 16px;
+left: 648px;
+top: 665px;
+}
+.ec1{
+     /* Ellipse 28 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 648px;
+top: 665px;
+
+/* White */
+background: #FFFFFF;
+opacity: 0.3;
+
+}
+.ec2{
+     /* Ellipse 29 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 680px;
+top: 665px;
+
+/* Accent 1 */
+background: #3ED5DD;
+
+}
+.ec3{
+     /* Ellipse 30 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 712px;
+top: 665px;
+
+/* White */
+background: #FFFFFF;
+opacity: 0.3;
+/* Accent 1 */
+border: 1px solid #3ED5DD;
+
+}
+.ec4{
+     /* Ellipse 31 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 744px;
+top: 665px;
+
+/* White */
+background: #FFFFFF;
+opacity: 0.3;
+
+}
+.ec5{
+     /* Ellipse 32 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 776px;
+top: 665px;
+
+/* White */
+background: #FFFFFF;
+opacity: 0.3;
+
+}
+/* *******************************Section 3****************************** */
+.sect3 {
+     position: absolute;
+     width: 1440px;
+     height: 1065px;
+     left: 0px;
+     top: 4213px;
+     background: #171717;
+}
+
+/* .vec {
+     position: absolute;
+     width: 725.47px;
+     height: 487.2px;
+     left: -146px;
+     top: 285.52px;
+   
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     transform: rotate(-90deg);
+   } */
+
+.text {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 24px;
+
+     position: absolute;
+     width: 711px;
+     height: 242px;
+     left: calc(50% - 711px / 2 - 0.5px);
+     top: 80px;
+}
+
+.start {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+     width: 711px;
+     height: 172px;
+}
+
+.price {
+     width: 711px;
+     height: 24px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+     text-align: center;
+     color: #3ed5dd;
+}
+
+.using {
+     width: 711px;
+     height: 140px;
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 67px;
+     line-height: 70px;
+     /* or 104% */
+     text-align: center;
+     text-transform: capitalize;
+
+     /* White */
+     color: #ffffff;
+}
+
+.dolor {
+     width: 711px;
+     height: 46px;
+
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+     color: #ffffff;
+     padding-top: 40px;
+     margin-top: 60px;
+}
+
+.card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 388px;
+     height: 549px;
+     left: 526px;
+     top: 402px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+     padding-top: 40px;
+     margin-top: 40px;
+}
+
+.stand {
+     /* STANDARD */
+
+     width: 324px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+     /* display: flex; */
+     align-items: center;
+     text-align: center;
+     color: #3ed5dd;
+}
+
+.amet {
+     width: 324px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     display: flex;
+     align-items: center;
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.amt {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 24px;
+     gap: 16px;
+
+     width: 324px;
+     height: 80px;
+
+     /* Colour Button */
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     /* Drop Shadow */
+     box-shadow: 0px 0px 10px rgba(62, 213, 221, 0.56);
+     border-radius: 50px;
+}
+
+.money {
+     /* $199 */
+
+     width: 86px;
+     height: 48px;
+
+     /* Headings/H4 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 48px;
+     /* identical to box height, or 126% */
+     display: flex;
+     align-items: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.vec5 {
+     /* Vector 5 */
+
+     width: 0px;
+     height: 22px;
+
+     /* White */
+     border: 1px solid #ffffff;
+}
+
+.month {
+     /* /per month */
+
+     width: 78px;
+     height: 24px;
+
+     /* Headings/H7 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 24px;
+     /* identical to box height, or 150% */
+     display: flex;
+     align-items: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.orderlist {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 324px;
+     height: 144px;
+}
+
+.every {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 324px;
+     height: 24px;
+}
+
+.icon {
+     width: 24px;
+     height: 24px;
+}
+
+/* .tick{
+   
+   
+   position: absolute;
+   left: 15.45%;
+   right: 15.45%;
+   top: 26.56%;
+   bottom: 25.34%;
+   
+   
+   background: #3ED5DD;
+   
+   } */
+
+.basic {
+     /* Everything in Basic */
+
+     width: 292px;
+     height: 23px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.purchase {
+     /* Button */
+
+     /* Auto layout */
+     /* display: flex; */
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 24px;
+     gap: 8px;
+
+     width: 324px;
+     height: 72px;
+     margin-bottom: 264px;
+     /* Colour Button */
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     border-radius: 8px;
+}
+
+.put {
+     /* Purchase */
+
+     width: 276px;
+     height: 24px;
+
+     /* Button */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     /* identical to box height, or 100% */
+     /* display: flex; */
+     align-items: center;
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.cardBasic {
+     /* display: flex; */
+     flex-direction: column;
+     align-items: center;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 388px;
+     height: 509px;
+     left: 98px;
+     top: 476px;
+     /* Colour Card */
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.bas {
+     /* BASIC */
+
+     width: 324px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+     /* display: flex; */
+     align-items: center;
+     text-align: center;
+
+     /* Accent 1 */
+     color: #3ed5dd;
+}
+
+.basicPrice {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 24px;
+     gap: 16px;
+
+     width: 324px;
+     height: 80px;
+
+     /* BG Dark */
+     background: #171717;
+     border-radius: 50px;
+}
+
+.dollar {
+     /* $99 */
+
+     width: 64px;
+     height: 48px;
+
+     /* Headings/H4 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 48px;
+     /* identical to box height, or 126% */
+     display: flex;
+     align-items: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.purch {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 24px;
+     gap: 8px;
+
+     width: 324px;
+     height: 72px;
+
+     /* Colour Button */
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     border-radius: 8px;
+
+     /* Inside auto layout */
+     flex: none;
+     order: 4;
+     align-self: stretch;
+     flex-grow: 0;
+}
+
+.purchtext {
+     /* Purchase */
+
+     width: 276px;
+     height: 24px;
+
+     /* Button */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     /* identical to box height, or 100% */
+     /* display: flex; */
+     align-items: center;
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.cardPreminium {
+     /* card */
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 388px;
+     height: 509px;
+     left: 954px;
+     top: 476px;
+
+     /* Colour Card */
+     background: linear-gradient(96.79deg,
+               #171717 -62.94%,
+               #323335 -62.92%,
+               rgba(90, 90, 90, 0) 54.42%,
+               #171717 174.24%);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.pre {
+     /* PREMIUM */
+
+     width: 324px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+     /* display: flex; */
+     align-items: center;
+     text-align: center;
+
+     /* Accent 1 */
+     color: #3ed5dd;
+}
+
+.elit {
+     /*  */
+
+     width: 324px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     display: flex;
+     align-items: center;
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.prePrice {
+     /* price */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 24px;
+     gap: 16px;
+
+     width: 324px;
+     height: 80px;
+
+     /* BG Dark */
+     background: #171717;
+     border-radius: 50px;
+}
+
+.preMon {
+     /* $399 */
+
+     width: 86px;
+     height: 48px;
+
+     /* Headings/H4 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 48px;
+     /* identical to box height, or 126% */
+     display: flex;
+     align-items: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+.pr {
+     /* Button */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 24px;
+     gap: 8px;
+
+     width: 324px;
+     height: 72px;
+
+     /* Colour Button */
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     border-radius: 8px;
+}
+
+.pt {
+     /* Purchase */
+
+     width: 276px;
+     height: 24px;
+
+     /* Button */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     /* identical to box height, or 100% */
+     /* display: flex; */
+     align-items: center;
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+}
+
+/* ******************************Testimonial********************* */
+.testmonials {
+     position: absolute;
+     width: 1440px;
+     height: 996px;
+     left: calc(50% - 1440px / 2);
+     top: 5278px;
+
+     /* BG Dark */
+     background: #171717;
+}
+
+.test1 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+     gap: 24px;
+
+     position: absolute;
+     width: 761px;
+     height: 242px;
+     left: calc(50% - 761px / 2 - 0.5px);
+     top: 80px;
+}
+
+.testtext {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 761px;
+     height: 172px;
+}
+
+.twords {
+     /* TESTIMONIAL */
+
+     width: 761px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+     text-align: center;
+
+     /* Accent 1 */
+     color: #3ed5dd;
+}
+
+.see {
+     /* see what others people are saying */
+
+     width: 761px;
+     height: 140px;
+
+     /* Headings/H2 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 67px;
+     line-height: 70px;
+     /* or 104% */
+     text-align: center;
+     text-transform: capitalize;
+
+     /* White */
+     color: #ffffff;
+}
+
+.quis {
+     width: 761px;
+     height: 46px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+     padding-top: 40px;
+}
+
+.sammy {
+     /* display: flex; */
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 98px;
+     top: 402px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.nisi {
+     width: 538px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.mix {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+
+     width: 538px;
+     height: 80px;
+}
+
+.placeholder {
+     /* Image Placeholder */
+
+     width: 56px;
+     height: 56px;
+
+     /* main text */
+     background: #484848;
+     border-radius: 100px;
+}
+
+.nameJob {
+     /* Name + Job */
+
+     /* display: flex; */
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+     width: 466px;
+     height: 80px;
+}
+
+.miss {
+     /* Miss Sammy Feeney */
+
+     width: 466px;
+     height: 32px;
+
+     /* Headings/H5 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.invest {
+     /* Investor Metrics Executive */
+
+     width: 466px;
+     height: 16px;
+
+     /* Main Text/P2 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16px;
+     /* identical to box height, or 133% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.star {
+     /* star */
+
+     /* display: flex; */
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 112px;
+     height: 16px;
+}
+
+.regina {
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 98px;
+     top: 679px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.sed {
+     width: 538px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.wessina {
+     /* Name + Job */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 466px;
+     height: 80px;
+
+
+}
+
+.placeholder2 {
+     /* Image Placeholder2 */
+
+     width: 56px;
+     height: 56px;
+
+     /* main text */
+     background: #484848;
+     border-radius: 100px;
+}
+
+.nameJob2 {
+     /* Name + Job */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 466px;
+     height: 80px;
+}
+
+.nat {
+     /* Regina Weissnat */
+
+     width: 466px;
+     height: 32px;
+
+     /* Headings/H5 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.regional {
+     /* Regional Branding Consultant */
+
+     width: 466px;
+     height: 16px;
+
+     /* Main Text/P2 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16px;
+     /* identical to box height, or 133% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.star1 {
+     /* star */
+     /* display: flex; */
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 112px;
+     height: 16px;
+}
+
+.rose {
+     /* tx */
+
+     /* Auto layout */
+     /* display: flex; */
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 740px;
+     top: 402px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+}
+
+.euis {
+     width: 538px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.mante {
+     /* Mix */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 16px;
+
+     width: 538px;
+     height: 80px;
+}
+
+.placeholder3 {
+     /* Image Placeholder3 */
+
+     width: 56px;
+     height: 56px;
+
+     /* main text */
+     background: #484848;
+     border-radius: 100px;
+}
+
+.namejob3 {
+     /* Name + Job */
+     /* display: flex; */
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 8px;
+
+     width: 466px;
+     height: 80px;
+}
+
+.mary {
+     /* Rosemary Mante */
+
+     width: 466px;
+     height: 32px;
+
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 32px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.agent {
+     /* Human Integration Agent */
+
+     width: 466px;
+     height: 16px;
+
+     /* Main Text/P2 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16px;
+     /* identical to box height, or 133% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.bode {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 32px;
+     gap: 24px;
+
+     position: absolute;
+     width: 602px;
+     height: 237px;
+     left: 740px;
+     top: 679px;
+
+     /* Style */
+     background: rgba(170, 170, 170, 0.06);
+     /* Background Blur */
+     backdrop-filter: blur(25px);
+     /* Note: backdrop-filter has minimal browser support */
+     border-radius: 16px;
+
+}
+
+
+.foot {
+     /* Footer */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
+     padding: 96px 98px;
+     gap: 8px;
+     isolation: isolate;
+
+     position: absolute;
+     width: 1440px;
+     height: 397px;
+     left: 0px;
+     top: 6274px;
+
+     /* BG Dark */
+     background: #171717;
+}
+
+.cyberEz {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 32px;
+
+     margin: 0 auto;
+     width: 271px;
+     height: 205px;
+}
+
+.cyberText {
+     /* CyberEz */
+
+     width: 131px;
+     height: 48px;
+
+     /* Headings/H4 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 48px;
+     /* identical to box height, or 126% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.totor {
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet neque tortor. */
+
+     width: 271px;
+     height: 69px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.sosmed {
+     /* Sosmed */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 32px;
+
+     width: 271px;
+     height: 40px;
+}
+
+.quicklink {
+     /* Quick Links */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 40px;
+
+     margin: 0 auto;
+     width: 102px;
+     height: 204px;
+}
+
+.ql {
+     /* Quick Links */
+
+     width: 102px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.listLink {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 16px;
+
+     width: 102px;
+     height: 140px;
+}
+
+.ours {
+     /* Our Service */
+
+     width: 102px;
+     height: 23px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.contact {
+     /* Contact Us */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 40px;
+
+     margin: 0 auto;
+     width: 293px;
+     height: 165px;
+}
+
+.us {
+     /* Contact Us */
+
+     width: 293px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.txnum {
+     /* tx */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 24px;
+
+     width: 293px;
+     height: 101px;
+}
+
+.email {
+     /* Email */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 293px;
+     height: 23px;
+     /* hello@website.com */
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.location {
+     /* Location */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 293px;
+     height: 23px;
+
+     /* 838 Cantt Sialkot, ENG */
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.telp {
+     /* telp */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 0px;
+     gap: 8px;
+
+     width: 293px;
+     height: 23px;
+
+     /* +02 5421234560 */
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.newsletter {
+     /* Newsletter */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding: 0px;
+     gap: 40px;
+
+     margin: 0 auto;
+     width: 432px;
+     height: 144px;
+}
+
+.letter {
+     /* Newsletter */
+
+     width: 119px;
+     height: 24px;
+
+     /* Headings/H6 600 */
+     font-family: "Signika";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 21px;
+     line-height: 24px;
+     /* identical to box height, or 114% */
+
+     /* White */
+     color: #ffffff;
+}
+
+.enName {
+     /* Enter name */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 8px 24px;
+     isolation: isolate;
+
+     width: 432px;
+     height: 80px;
+
+     /* White */
+     background: #ffffff;
+     border-radius: 24px;
+}
+
+.name {
+     /* Enter your email */
+
+     width: 130px;
+     height: 23px;
+
+     /* Main Text/P1 400 */
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     /* identical to box height, or 144% */
+
+     /* Paragraph */
+     color: #4a4a4a;
+
+     opacity: 0.5;
+}
+
+.bt {
+     /* Button */
+
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 16px 24px;
+
+     /* position: absolute; */
+     width: 150px;
+     height: 64px;
+     left: 272px;
+     top: 8px;
+
+     margin-left: auto;
+
+     /* Colour Button */
+     background: linear-gradient(298.54deg, #0a767b -7.7%, #00a7d6 97.12%);
+     border-radius: 24px;
+}
+
+.bt:hover {
+     background-color: blue;
+}
+
+.subs {
+     /* Subscribe */
+
+     width: 102px;
+     height: 24px;
+
+     /* Button */
+     font-family: "Titillium Web";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 24px;
+     /* identical to box height, or 100% */
+     text-align: center;
+
+     /* White */
+     color: #ffffff;
+}
